@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+.slide-1,.slide-2,.slide-3,.slide-4{
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 70%;
+} 
+.slide-1{
+    animation: fade1 10s infinite;
+}
+
+.slide-2{
+    animation: fade2 10s infinite;
+}
+
+.slide-3{
+    animation: fade3 10s infinite;
+}
+
+.slide-4{
+    animation: fade4 10s infinite;
+}
+@keyframes fade1{
+     0%{opacity: 1;}
+    25%{opacity: 0;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 1;} 
+}
+
+@keyframes fade2{
+     0%{opacity: 0;}
+    25%{opacity: 1;}
+    50%{opacity: 0;}
+    75%{opacity: 0;}
+    100%{opacity: 0;} 
+}
+
+@keyframes fade3{
+     0%{opacity: 0;}
+    25%{opacity: 0;}
+    50%{opacity: 1;}
+    75%{opacity: 0;}
+    100%{opacity: 0;} 
+}
+
+@keyframes fade4{
+     0%{opacity: 0;}
+    25%{opacity: 0;}
+    50%{opacity: 0;}
+    75%{opacity: 1;}
+    100%{opacity: 0;} 
+} 
+
+/* #sliderbox{
+    position: relative;
+    width: 3200px;
+    animation-name: slideranimation;
+    animation-duration: 20s;
+}
+#sliderbox img{
+    float: left;
+}
+@keyframes slideranimation{
+    0%
+    {
+        left: 0px;
+    }
+    20%  /* 4 second */
+    /* {
+        left: 0px;
+    }
+    25%  /*5 second */
+    /* {
+        left: -800px;
+    }
+}  */ 
